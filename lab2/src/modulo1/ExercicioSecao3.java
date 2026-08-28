@@ -8,6 +8,8 @@ public class ExercicioSecao3 {
 			int idade = 12;
 		double altura = 1.2;
 		boolean estudante = true;
+		System.out.println("Nome: " + nome + ", Idade: " + idade + ", Altura: " + altura + ", Estudante: " + estudante);
+
 	}
 
 }
