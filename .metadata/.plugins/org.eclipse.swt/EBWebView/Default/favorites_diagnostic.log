@@ -17,3 +17,13 @@
 2026-08-26 02:16:18.258: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-08-26 02:16:18.258: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-08-26 02:16:55.669: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-29 02:46:31.878: [INFO] CurrentProfilePath: C:\Users\laura\OneDrive\Área de Trabalho\codigos\Laboratório de programação\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-29 02:46:31.878: [INFO] Profiles total count: 1
+2026-08-29 02:46:31.878: [INFO] Profile: name=Perfil 1 path=C:\Users\laura\OneDrive\Área de Trabalho\codigos\Laboratório de programação\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-08-26T02:16:09.901Z
+2026-08-29 02:46:31.878: [INFO] LastUsedProfileDir: C:\Users\laura\OneDrive\Área de Trabalho\codigos\Laboratório de programação\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-29 02:46:31.879: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\laura\OneDrive\Área de Trabalho\codigos\Laboratório de programação\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-08-26T02:16:09.901Z
+2026-08-29 02:46:31.879: [INFO] OnDoneLoading sync enabled: 0
+2026-08-29 02:46:31.879: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-29 02:46:31.879: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-29 02:46:31.879: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-29 02:46:43.608: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
