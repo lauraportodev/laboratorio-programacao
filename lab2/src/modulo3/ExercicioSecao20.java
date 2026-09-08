@@ -10,7 +10,7 @@ public class ExercicioSecao20 {
 		int idade = teclado.nextInt();
 		System.out.println("Qual sua altura");
 		double altura = teclado.nextDouble();
-		System.out.println("Olá, "+ nome + "!Você tem " +idade+ " anos e possui " +altura+ " de altura.");
+		System.out.println("Olá, "+ nome + "!Você tem " +idade+ " anos e possui " +altura+ "m de altura.");
 		teclado.close();
 	}
 
