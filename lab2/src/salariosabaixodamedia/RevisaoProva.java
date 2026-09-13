@@ -1,25 +1,44 @@
 package salariosabaixodamedia;
 import java.util.Scanner;
+
 public class RevisaoProva {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Uma empresa possui n funcionários contratados."
-				+ " Ela deseja dar aumento apenas para os funcionários que possuem "
-				+ "salário abaixo da média salarial da empresa. Para isto, ela deseja "
-				+ "analisar os valores de todos os salários com valor menor que a média salarial. "
-				+ "Faça um programa em Java que mostre os nomes e os salários dos funcionários de "
-				+ "uma empresa que estão abaixo da média salarial da empresa. O usuário deverá informar "
-				+ "no início a quantidade n de funcionários da empresa e os respectivos nomes e salários "
-				+ "dos funcionários.");
-		Scanner teclado = new Scanner(System.in);
-		System.out.println("Qual a quantidade de funcionários ?");
-		int funcionarios = teclado.nextInt();
-		
-		
-		System.out.println("Os funcionários abaixo da média salarial são:" + xxx + ", com respectivos sálarios: " +yyy);
-//		int mediaSalarial = 
-//				if (mediaSalarial <= 
-	}
+		Scanner entrada = new Scanner(System.in);
+		String vetNome[];
+		double vetSalario[];
+		int qtdeFunc;
+		double mediaSalario, soma=0.0;
 
+		System.out.println("Informe a quantidade de funcionários: ");
+		qtdeFunc = entrada.nextInt();
+		entrada.nextLine();
+
+		vetNome = new String[qtdeFunc];
+		vetSalario = new double[qtdeFunc];
+
+		for(int i=0; i<qtdeFunc; i++) {
+			System.out.println("Informe o nome do "+(i+1)+"° funcionários: ");
+			vetNome[i] = entrada.nextLine();
+			System.out.println("Informe o salário do "+(i+1)+"° funcionários: ");
+			vetSalario[i] = entrada.nextDouble();
+			entrada.nextLine();
+
+			soma = soma + vetSalario[i];
+		}
+
+		mediaSalario = soma/qtdeFunc;
+		
+		System.out.printf("Funcionários que ganham abaixo da média de salários: R$ %.2f",mediaSalario);
+		for(int i=0; i<qtdeFunc; i++) {
+			if(vetSalario[i]<mediaSalario) {
+				System.out.println("Nome do Funcionário: "+vetNome[i]);
+				System.out.println("Salário do Funcionário: "+vetSalario[i]);
+			}
+		}		
+		
+		entrada.close();
+		System.out.println("Fim do programa!");
+	}
 }
+
