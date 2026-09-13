@@ -1,5 +1,5 @@
 package estruturasbasicas;
-	import java.math;
+
 public class Exercicio7 {
 
 	public static void main(String[] args) {
