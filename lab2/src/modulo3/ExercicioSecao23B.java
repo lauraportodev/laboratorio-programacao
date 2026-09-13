@@ -12,7 +12,8 @@ public class ExercicioSecao23B {
 			System.out.println("A idade " +a+ " está dentro da faixa.");
 		}else{
 			System.out.println("A idade " +a+ " não está dentro da faixa.");
-			teclado.close();
 			}
+	teclado.close();
+	System.out.println("Fim do programa!");
 		}
 	}

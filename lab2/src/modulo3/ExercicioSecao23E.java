@@ -12,14 +12,15 @@ public class ExercicioSecao23E {
 		double b = teclado.nextDouble();
 		System.out.println("Informe o terceiro número:");
 		double c = teclado.nextDouble();
-		if (a>b)  {
+		if (a>b && a>c)  {
 			System.out.println("O maior número é: " + (a));
 		}
 		else if (b>a && b>c) {
 			System.out.println("O maior número é: " + (b));
 		}else{
 			System.out.println("O maior número é: " + (c));
-			teclado.close();
 				}
+	teclado.close();
+	System.out.println("Fim do programa!");
 			}	
 		}

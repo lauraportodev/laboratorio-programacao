@@ -16,7 +16,8 @@ public class ExercicioSecao23C {
 			System.out.println(nota + " é uma nota regular.");
 		}else{
 			System.out.println(nota + " é uma nota insuficiente.");
-			teclado.close();
 					}
+	teclado.close();
+	System.out.println("Fim do programa!");
 				}
 			}

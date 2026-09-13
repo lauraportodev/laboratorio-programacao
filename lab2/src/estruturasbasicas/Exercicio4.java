@@ -20,7 +20,7 @@ public class Exercicio4 {
 		System.out.println("Qual a quantidade de pessoas?");
 		int pessoas = teclado.nextInt();
 		double total = (chopes*valorTulipa) + valorPizza;
-		double gorjeta = total + 1.10;
+		double gorjeta = total * 1.10;
 		double conta = gorjeta / pessoas;
 		
 		System.out.printf("O total da conta foi de R$%.2f e no grupo de %d pessoas, cada uma irá pagar R$%.2f.%n", gorjeta, pessoas, conta);	

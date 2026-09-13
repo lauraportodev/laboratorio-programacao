@@ -12,7 +12,8 @@ public class ExercicioSecao23D {
 		double b = teclado.nextDouble();
 		double m = (a+b)/2;
 		System.out.println("A média entre "+a+" e "+b+" é " +m);
-		teclado.close();
+	teclado.close();
+	System.out.println("Fim do programa!");
 	}
 
 }

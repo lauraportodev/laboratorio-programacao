@@ -12,7 +12,8 @@ public class ExercicioSecao22 {
 			System.out.println("Maior de idade.");
 		}else{
 			System.out.println("Menor de idade.");
-			teclado.close();
 		}
+	teclado.close();
+	System.out.println("Fim do programa!");
 	}
 }

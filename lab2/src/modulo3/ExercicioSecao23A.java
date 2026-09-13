@@ -14,7 +14,8 @@ public class ExercicioSecao23A {
 			System.out.println("O maior número é: " +a);
 		}else{
 			System.out.println("O maior número é: " +b);
-			teclado.close();
 			}
+	teclado.close();
+	System.out.println("Fim do programa!");
 		}
 	}
