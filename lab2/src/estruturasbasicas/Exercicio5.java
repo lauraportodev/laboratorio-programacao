@@ -11,6 +11,6 @@ public class Exercicio5 {
 		double celsius = teclado.nextDouble();
 		double Fahrenheit = (9.0/5)*celsius+32;
 		System.out.printf("Em Fahrenheit a temperatura de %.2f é de %.2f.", celsius,Fahrenheit);
-	
+	teclado.close();
 	}
 }

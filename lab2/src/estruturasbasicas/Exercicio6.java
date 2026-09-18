@@ -16,6 +16,7 @@ public class Exercicio6 {
 		System.out.printf( "O triplo de %d é :%d.\n", n,triplo);
 		System.out.printf("A metade de %d é :%.2f\n", n,metade);
 		System.out.printf("A raiz cúbica de %d é :%.2f\n", n,raizCubica);
-		System.out.printf("%d,elevado a potência fracionária 2/3 é :%.2f\n", n, potenciaFracionaria);		
+		System.out.printf("%d,elevado a potência fracionária 2/3 é :%.2f\n", n, potenciaFracionaria);
+	teclado.close();
 	}
 }

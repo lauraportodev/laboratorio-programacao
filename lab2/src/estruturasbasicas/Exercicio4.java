@@ -22,7 +22,7 @@ public class Exercicio4 {
 		double total = (chopes*valorTulipa) + valorPizza;
 		double gorjeta = total * 1.10;
 		double conta = gorjeta / pessoas;
-		
+	teclado.close();
 		System.out.printf("O total da conta foi de R$%.2f e no grupo de %d pessoas, cada uma irá pagar R$%.2f.%n", gorjeta, pessoas, conta);	
 	}
 
