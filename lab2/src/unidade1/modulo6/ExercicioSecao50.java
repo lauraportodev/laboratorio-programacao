@@ -14,6 +14,7 @@ public class ExercicioSecao50 {
 		int pares = 0;
 		int maior = matriz[0][0]; // começa com um elemento real da matriz
 
+		
 		for (int i = 0; i < matriz.length; i++) {
 			for (int j = 0; j < matriz[i].length; j++) {
 				System.out.print(matriz[i][j] + " ");
